@@ -286,4 +286,132 @@
 }
 
 
-/* DEMO FURNITURE PAGE */
+/********** DEMO FURNITURE PAGE ********/
+.product{
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  padding-top: 41px;
+  padding-right: 60px;
+}
+
+/* PRODUCT IMAGES */
+.product-image{
+  display: flex;
+}
+.product-image > img{
+  width: 60px;
+  height: 60px;
+  align-self: center;
+}
+.images{
+  margin-left: 50px;
+}
+.images > img{
+  width: 530px;
+  height: 475px;
+}
+.sub-images{
+  display: flex;
+  gap: 16px;
+}
+
+/* PRRODUCT DESCRIPTION */
+.product-description{
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  align-self: center;
+  gap: 20px;
+}
+.product-description > p{
+  font-size: 20px;
+  color: #7A7979;
+}
+.product-description h1{
+  font-size: 36px;
+}
+.color_options{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.color_options button{
+  width: 28px;
+  height: 28px;
+  border-radius: 100%;
+  border: 0;
+}
+.color_options button:nth-child(1){
+ background-color: black;
+}
+.color_options button:nth-child(2){
+  padding: 13px;
+  background-color: #E1DBDB;
+  border: 7px solid white;
+  box-shadow: 2px 3px 12px #7a7979;
+}
+
+.measurement{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.measurement button{
+  font-size: 10px;
+  border: 1px solid #7A7979;
+  background: #FFF;
+  padding: 8px 24px;
+}
+.measurement a{
+  font-size: 10px;
+}
+.measurement span{
+  font-weight: 700;
+}
+
+.quantity{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.quantity button{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  justify-content: center;
+}
+.quantity button:nth-child(1){
+  background-color: white;
+  border: 1px solid;
+  border-radius: 3px;
+}
+.quantity button:nth-child(3){
+  background-color: black;
+  color: white;
+  border: 0;
+  border-radius: 3px;
+}
+.quantity p{
+  font-size: 20px;
+}
+
+.checkout{
+  display: flex;
+  gap: 18px;
+}
+.checkout button{
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 12px;
+  border: 1px solid;
+  background-color: white;
+  font-weight: 700;
+}
+.checkout button:nth-child(2){
+  color: white;
+  background-color: black;
+  padding: 0 30px;
+}
